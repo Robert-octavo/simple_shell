@@ -1,7 +1,4 @@
 <h1 dir="auto">C - Simple Shell</h1>
-<h2 dir="auto">&nbsp;</h2>
-<h2 dir="auto">&nbsp;</h2>
-<h2 dir="auto">&nbsp;</h2>
 <h2 dir="auto">Concepts</h2>
 <p dir="auto">&nbsp;</p>
 <div dir="auto">
@@ -12,12 +9,9 @@
 <li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://intranet.hbtn.io/concepts/64" rel="nofollow">Everything you need to know to start coding your own shell</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
 <li>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://intranet.hbtn.io/concepts/350" rel="nofollow">Approaching a Project</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
 </ul>
-<h2 dir="auto">&nbsp;</h2>
+<h2 dir="auto">&nbsp;Resources</h2>
 </div>
 </div>
-<h2 dir="auto">&nbsp;</h2>
-<h2 dir="auto">&nbsp;</h2>
-<h2 dir="auto">Resources</h2>
 <p dir="auto"><strong>Read or watch</strong>:</p>
 <ul dir="auto">
 <li><a title="Unix shell" href="https://intranet.hbtn.io/rltoken/RsZhUQ_26du3YUYKXO3gXA" rel="nofollow">Unix shell</a>&nbsp;</li>
@@ -29,10 +23,8 @@
 <ul dir="auto">
 <li><code>sh</code> (<em>Run <code>sh</code> as well</em>)</li>
 </ul>
-<h2 dir="auto">&nbsp;</h2>
 <h2 dir="auto">Learning Objectives</h2>
 <p dir="auto">At the end of this project, you are expected to be able to <a title="explain to anyone" href="https://intranet.hbtn.io/rltoken/J2Xchn4MO6tV6oZGCCtfQQ" rel="nofollow">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
-<h3 dir="auto">&nbsp;</h3>
 <h3 dir="auto">General</h3>
 <ul dir="auto">
 <li>Who designed and implemented the original Unix operating system</li>
@@ -50,9 +42,7 @@
 <li>How to suspend the execution of a process until one of its children terminates</li>
 <li>What is <code>EOF</code> / &ldquo;end-of-file&rdquo;?</li>
 </ul>
-<h2 dir="auto">&nbsp;</h2>
 <h2 dir="auto">Requirements</h2>
-<h3 dir="auto">&nbsp;</h3>
 <h3 dir="auto">General</h3>
 <ul dir="auto">
 <li>Allowed editors: <code>vi</code>, <code>vim</code>, <code>emacs</code></li>
@@ -65,12 +55,9 @@
 <li>All your header files should be include guarded</li>
 <li>Use system calls only when you need to (<a title="why?" href="https://intranet.hbtn.io/rltoken/StgX3y26fwPNV_DqlZLErw" rel="nofollow">why?</a>)</li>
 </ul>
-<h3 dir="auto">&nbsp;</h3>
 <h3 dir="auto">GitHub</h3>
 <p dir="auto"><strong>There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.</strong></p>
-<h2 dir="auto">&nbsp;</h2>
 <h2 dir="auto">More Info</h2>
-<h3 dir="auto">&nbsp;</h3>
 <h3 dir="auto">Output</h3>
 <ul dir="auto">
 <li>Unless specified otherwise, your program <strong>must have the exact same output</strong> as <code>sh</code> (<code>/bin/sh</code>) as well as the exact same error output.</li>
@@ -91,9 +78,7 @@ $
 $ echo "qwerty" | ./././hsh
 ./././hsh: 1: qwerty: not found
 $
-</code></pre>
-<p dir="auto">&nbsp;</p>
-<h3 dir="auto">&nbsp;</h3>
+</code>&nbsp;</pre>
 <h3 dir="auto">List of allowed functions and system calls</h3>
 <ul dir="auto">
 <li><code>access</code> (man 2 access)</li>
@@ -128,14 +113,12 @@ $
 <li><code>wait4</code> (man 2 wait4)</li>
 <li><code>write</code> (man 2 write)</li>
 </ul>
-<h3 dir="auto">&nbsp;</h3>
 <h3 dir="auto">Compilation</h3>
 <p dir="auto">Your shell will be compiled this way:</p>
 <div class="snippet-clipboard-content position-relative overflow-auto">
 <pre><code>gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 </code></pre>
 </div>
-<h3 dir="auto">&nbsp;</h3>
 <h3 dir="auto">Testing</h3>
 <p dir="auto">Your shell should work like this in interactive mode:</p>
 <div class="snippet-clipboard-content position-relative overflow-auto">
