@@ -9,7 +9,7 @@
 typedef struct get
 {
     char *shape;
-    int (*f)(va_list);
+    int (*f)(int);
 } get_fun;
 
 #endif
