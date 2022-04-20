@@ -33,7 +33,7 @@ int main(/*int argc, char *argv[], char *envp[]*/)
 			if (hijo == 0)
 			{
 				if (execve(path_com, comando, NULL))
-					perror("execve"), free(linea), exit(EXIT_FAILURE);
+					perror("execve"), free(linea), free(path_com), exit(EXIT_FAILURE);
 			}
 			if (hijo > 0)
 				wait(&status), free(linea);
@@ -42,6 +42,6 @@ int main(/*int argc, char *argv[], char *envp[]*/)
 		token = NULL;
 		comando[0] = NULL;
 	}
-	free(linea);
+	free(linea), free(path_com);
 	exit(status);
 }
