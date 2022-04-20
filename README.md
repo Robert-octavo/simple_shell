@@ -129,6 +129,6 @@ $
 <h3>Checks</h3>
 <p>The Checker will be released at the end of the project (1-2 days before the deadline). We <strong>strongly</strong> encourage the entire class to work together to create a suite of checks covering both regular tests and edge cases for each task. See task <code>8. Test suite</code>.</p>
 <h3>Authors</h3>
-<p><a title="Mateo Alejandro" href="https://github.com/MateoAlejandro0331">Mateo ALejandro</a></p>
+<p><a title="Mateo Alejandro" href="https://github.com/MateoAlejandro0331">Mateo Alejandro</a></p>
 <p><a title="Robert Ortega" href="https://github.com/Robert-octavo/simple_shell">Robert Ortega</a></p>
 <p>&nbsp;</p>
