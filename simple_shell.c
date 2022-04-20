@@ -24,6 +24,8 @@ int main(/*int argc, char *argv[], char *envp[]*/)
 		for (i = 0; i < 100 && token != NULL; i++)
 			comando[i] = token, token = strtok(NULL, " \t\n\r");
 		comando[i] = NULL;
+		if (comando[0] == NULL)
+			continue;
 		path_com = findpath(comando[0]);
 		if (builtin(comando[0]) == 0)
 		{
@@ -34,10 +36,7 @@ int main(/*int argc, char *argv[], char *envp[]*/)
 					perror("execve"), free(linea), exit(EXIT_FAILURE);
 			}
 			if (hijo > 0)
-			{
-				wait(&status);
-				free(linea);
-			}
+				wait(&status), free(linea);
 		}
 		linea = NULL;
 		token = NULL;
