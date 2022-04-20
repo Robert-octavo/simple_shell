@@ -36,12 +36,12 @@ int main(/*int argc, char *argv[], char *envp[]*/)
 					perror("execve"), free(linea), free(path_com), exit(EXIT_FAILURE);
 			}
 			if (hijo > 0)
-				wait(&status), free(linea);
+				wait(&status), free(linea), free(path_com);
 		}
 		linea = NULL;
 		token = NULL;
 		comando[0] = NULL;
 	}
-	free(linea), free(path_com);
+	free(linea);
 	exit(status);
 }
