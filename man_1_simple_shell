@@ -1,0 +1,70 @@
+.TH Shell  1.0 "Shell Man Page" "April/19/2022" "Shell Man Page"
+.SH NAME
+Shell - Comand interpreter
+.SH SYNOPSIS
+.B #include "shell.h"
+.br
+.B $
+[COMAND] -[OPTION]
+.br
+.B $
+[COMMAND] [FILE] -[OPTION]
+.SH DESCRIPTION
+This program simulates the general behavior of a sh in the unix 
+.br
+like environment is a command language interpreter that shall
+.br
+execute commands read from a command line string, the standard
+.br
+input, or a specified file.
+.br
+.SH OPTIONS
+.br 
+.B ls: 
+list all the files in the current directory
+.br 
+.B ls -ls: 
+list all the files in a long format in the current directory 
+.br 
+.B exit: 
+exit the program
+.br 
+.B env: 
+print the envarioment variable 
+.SH EXAMPLES
+.br
+$ ls 
+.br
+AUTHORS  README.md  builtin.c  envfunc.c  findpath.c  hsh  man_1_page  man_1_simple_shell  shell.h  simple_shell.c  t_string.c
+.br 
+$ ls -l
+.br
+total 68
+.br
+-rw-r--r-- 1 mateo mateo   423 Apr 19 21:46 AUTHORS
+.br
+-rw-r--r-- 1 mateo mateo  6436 Apr 20 12:00 README.md
+.br
+-rw-r--r-- 1 mateo mateo   383 Apr 19 21:46 builtin.c
+.br
+-rw-r--r-- 1 mateo mateo   654 Apr 19 21:46 envfunc.c
+.br
+-rw-r--r-- 1 mateo mateo  1041 Apr 19 21:46 findpath.c
+.br
+-rwxr-xr-x 1 mateo mateo 29112 Apr 20 12:21 hsh
+.br
+-rw-r--r-- 1 mateo mateo     0 Apr 20 12:03 man_1_page
+.br
+-rw-r--r-- 1 mateo mateo     0 Apr 20 12:04 man_1_simple_shell
+.br
+-rw-r--r-- 1 mateo mateo   448 Apr 19 21:46 shell.h
+.br
+-rw-r--r-- 1 mateo mateo  1054 Apr 20 12:21 simple_shell.c
+.br
+-rw-r--r-- 1 mateo mateo  1456 Apr 19 21:46 t_string.c
+.br
+.SH AUTHOR
+.br
+.Sh AUTORS
+.br
+Roberto Ortega & Mateo Alejandro López
