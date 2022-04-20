@@ -16,7 +16,7 @@ int main(/*int argc, char *argv[], char *envp[]*/)
 		if (isatty(STDIN_FILENO))
 			write(STDOUT_FILENO, "$ ", 2);
 		fflush(stdin);
-		if (getline(&linea, &n, stdin) == -1)
+		if (getline(&linea, &n, stdin) == EOF)
 			break;
 		if (*linea == '\n' || *linea == '\t')
 			continue;
