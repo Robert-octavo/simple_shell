@@ -23,7 +23,7 @@ input, or a specified file.
 .B ls: 
 list all the files in the current directory
 .br 
-.B ls -ls: 
+.B ls -l: 
 list all the files in a long format in the current directory 
 .br 
 .B exit: 
