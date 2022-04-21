@@ -63,8 +63,5 @@ total 68
 .br
 -rw-r--r-- 1 mateo mateo  1456 Apr 19 21:46 t_string.c
 .br
-.SH AUTHOR
-.br
-.Sh AUTORS
-.br
-Roberto Ortega & Mateo Alejandro López
+.SH AUTHORS
+MAteo Alejandro López (https://github.com/MateoAlejandro0331) Robert Octavo (https://github.com/Robert-octavo)
