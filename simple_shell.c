@@ -32,7 +32,7 @@ int main(/*int argc, char *argv[], char *envp[]*/)
 			hijo = fork();
 			if (hijo == 0)
 			{
-				if (execve(path_com, comando, NULL))
+				if (execve(path_com, comando, environ))
 					perror("execve"), free(linea), exit(EXIT_FAILURE);
 			}
 			if (hijo > 0)
