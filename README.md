@@ -15,16 +15,16 @@
  <li> ls <br>
    AUTHORS  README.md  builtin.c  envfunc.c  findpath.c  hsh  man_1_page  man_1_simple_shell  shell.h  simple_shell.c  t_string.c </li>
  <li> ls -l <br>
-        -rw-r--r-- 1 mateo mateo   423 Apr 19 21:46 AUTHORS
-       -rw-r--r-- 1 mateo mateo  6436 Apr 20 12:00 README.md
-       -rw-r--r-- 1 mateo mateo   383 Apr 19 21:46 builtin.c
-       -rw-r--r-- 1 mateo mateo   654 Apr 19 21:46 envfunc.c
-       -rw-r--r-- 1 mateo mateo  1041 Apr 19 21:46 findpath.c
-       -rwxr-xr-x 1 mateo mateo 29112 Apr 20 12:21 hsh
-       -rw-r--r-- 1 mateo mateo     0 Apr 20 12:03 man_1_page
-       -rw-r--r-- 1 mateo mateo     0 Apr 20 12:04 man_1_simple_shell
-       -rw-r--r-- 1 mateo mateo   448 Apr 19 21:46 shell.h
-       -rw-r--r-- 1 mateo mateo  1054 Apr 20 12:21 simple_shell.c
+        -rw-r--r-- 1 mateo mateo   423 Apr 19 21:46 AUTHORS <br>
+       -rw-r--r-- 1 mateo mateo  6436 Apr 20 12:00 README.md<br>
+       -rw-r--r-- 1 mateo mateo   383 Apr 19 21:46 builtin.c<br>
+       -rw-r--r-- 1 mateo mateo   654 Apr 19 21:46 envfunc.c<br>
+       -rw-r--r-- 1 mateo mateo  1041 Apr 19 21:46 findpath.c<br>
+       -rwxr-xr-x 1 mateo mateo 29112 Apr 20 12:21 hsh<br>
+       -rw-r--r-- 1 mateo mateo     0 Apr 20 12:03 man_1_page<br>
+       -rw-r--r-- 1 mateo mateo     0 Apr 20 12:04 man_1_simple_shell<br>
+       -rw-r--r-- 1 mateo mateo   448 Apr 19 21:46 shell.h<br>
+       -rw-r--r-- 1 mateo mateo  1054 Apr 20 12:21 simple_shell.c<br>
       -rw-r--r-- 1 mateo mateo  1456 Apr 19 21:46 t_string.c </li>
 <ul>
 <h3>Authors</h3>
