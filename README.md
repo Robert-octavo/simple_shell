@@ -11,7 +11,9 @@
        execute commands read from a command line string, the standard
        input, or a specified file.</p>
 <h2> COMPILATION </h2>
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+<p> gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh <br>
+    these are the flags for the gcc compiler, which are most commonly<br>
+    used to compile all the antire files in this repository</p>
 <h2>EXAMPLES</h2>
 <ul>
  <li> ls <br>
