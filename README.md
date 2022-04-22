@@ -10,6 +10,8 @@
        like environment is a command language interpreter that shall
        execute commands read from a command line string, the standard
        input, or a specified file.</p>
+<h2> COMPILATION </h2>
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 <h2>EXAMPLES</h2>
 <ul>
  <li> ls <br>
